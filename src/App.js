@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Countries from './Components/Countries/Countries';
+import Country from './Components/Country/Country';
 
+
+// Original Component Start
 function App() {
   return (
     <div className="App">
-      <First name="Nurul Amin" job="teacher" work="Pert Time Work on Market"></First>
-      <First name="Nurul Amin" job="teacher" work="Pert Time Work on Market"></First>
-      <First name="Nurul Amin" job="teacher" work="Pert Time Work on Market"></First>
+        <Countries></Countries>
+        <Country></Country>
     </div>
   );
 }
-<h4></h4>
-function First (props) {
-  return (
-    <div className='container'> 
-      <h1>Name : {props.name}</h1>
-      <h3>Work : {props.work}</h3>
-      <h3>Job : {props.job}</h3>
-    </div>
-  )
-}
+// Original Component End 
+
+
 
 export default App;
